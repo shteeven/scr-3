@@ -232,7 +232,7 @@ module.exports = {
     },
     fontFamily: {
       sans: [
-        'system-ui',
+        '"DIN Alternate"',
         '-apple-system',
         'BlinkMacSystemFont',
         '"Segoe UI"',
