@@ -1,6 +1,6 @@
 import React from 'react'
 
-function card(props) {
+function Card(props) {
   const handleCardClick = (event) => {
     console.log('card clicked')
   }
@@ -18,4 +18,4 @@ function card(props) {
   )
 }
 
-export default card
+export default Card
