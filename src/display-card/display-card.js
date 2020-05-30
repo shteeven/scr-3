@@ -3,7 +3,7 @@ import Card from './card'
 
 function DisplayCard() {
   return (
-    <div className="App">
+    <div className="px-2">
       <Card />
     </div>
   )
