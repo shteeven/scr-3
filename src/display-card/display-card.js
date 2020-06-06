@@ -35,7 +35,7 @@ const source = [
 
 function DisplayCard() {
   return (
-    <div className="px-2 ">
+    <div className="px-2">
       <div className="flex flex-wrap -mx-2">
         {source.map((item) => (
           <Card itemPic={item.pic} itemName={item.name} />
