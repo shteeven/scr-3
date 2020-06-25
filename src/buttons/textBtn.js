@@ -19,9 +19,9 @@ function ListenBtn() {
 function LiveBtn() {
   return (
     <div>
-      <p>Live</p>
+      <button class="bg-red-700 text-white font-bold py-2 px-4 rounded">Live</button>
     </div>
   )
 }
 
-export default { DonateBtn, ListenBtn, LiveBtn }
+export { DonateBtn, ListenBtn, LiveBtn }
