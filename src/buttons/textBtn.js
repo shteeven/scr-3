@@ -27,11 +27,17 @@ function LatestNewsBtn() {
 function ExploreBtn() {
   return (
     <div>
-      <button>Explore</button>
-      <div>
-        <a href="#">menu1</a>
-        <a href="#">menu2</a>
-        <a href="#">menu3</a>
+      <button className="block">Explore</button>
+      <div className="mt-2 py-2 w-48 bg-white rounded-lg shadow-xl">
+        <a href="#" className="block px-4 py-2 text-gray-800 hover:bg-indigo-500 hover:text-white">
+          menu1
+        </a>
+        <a href="#" className="block">
+          menu2
+        </a>
+        <a href="#" className="block">
+          menu3
+        </a>
       </div>
     </div>
   )
@@ -40,11 +46,17 @@ function ExploreBtn() {
 function ShopBtn() {
   return (
     <div>
-      <button>Shop</button>
-      <div>
-        <a href="#">menu1</a>
-        <a href="#">menu2</a>
-        <a href="#">menu3</a>
+      <button className="block">Shop</button>
+      <div className="mt-2 py-2 w-48 bg-white rounded-lg shadow-xl">
+        <a href="#" className="block px-4 py-2 text-gray-800 hover:bg-indigo-500 hover:text-white">
+          menu1
+        </a>
+        <a href="#" className="block">
+          menu2
+        </a>
+        <a href="#" className="block">
+          menu3
+        </a>
       </div>
     </div>
   )
