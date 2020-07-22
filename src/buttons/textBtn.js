@@ -28,6 +28,11 @@ function ExploreBtn() {
   return (
     <div>
       <button>Explore</button>
+      <div>
+        <a href="#">menu1</a>
+        <a href="#">menu2</a>
+        <a href="#">menu3</a>
+      </div>
     </div>
   )
 }
@@ -36,6 +41,11 @@ function ShopBtn() {
   return (
     <div>
       <button>Shop</button>
+      <div>
+        <a href="#">menu1</a>
+        <a href="#">menu2</a>
+        <a href="#">menu3</a>
+      </div>
     </div>
   )
 }
