@@ -3,7 +3,7 @@ import React from 'react'
 function HomeBtn() {
   return (
     <div>
-      <p>Home</p>
+      <button>Home</button>
     </div>
   )
 }
@@ -19,7 +19,7 @@ function LiveBtn() {
 function LatestNewsBtn() {
   return (
     <div>
-      <p>Latest News</p>
+      <button>Latest News</button>
     </div>
   )
 }
@@ -27,7 +27,7 @@ function LatestNewsBtn() {
 function ExploreBtn() {
   return (
     <div>
-      <p>Explore</p>
+      <button>Explore</button>
     </div>
   )
 }
@@ -35,7 +35,7 @@ function ExploreBtn() {
 function ShopBtn() {
   return (
     <div>
-      <p>Shop</p>
+      <button>Shop</button>
     </div>
   )
 }
@@ -43,7 +43,7 @@ function ShopBtn() {
 function AboutBtn() {
   return (
     <div>
-      <p>About</p>
+      <button>About</button>
     </div>
   )
 }
@@ -59,7 +59,7 @@ function DonateBtn() {
 function ListenBtn() {
   return (
     <div>
-      <p>Listen</p>
+      <button>Listen</button>
     </div>
   )
 }
